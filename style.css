@@ -7,8 +7,8 @@
 }
 
 body {
-  background: rgb(55, 55, 128);
-  background: linear-gradient(90deg, rgba(55, 55, 128, 1) 25%, rgba(74, 74, 147, 1) 55%, rgba(113, 113, 177, 1) 100%);
+  background: rgb(54, 54, 137);
+  background: linear-gradient(90deg, rgba(54, 54, 137, 1) 35%, rgba(74, 74, 146, 1) 55%, rgba(110, 110, 180, 1) 100%);
   font-family: "Poppins", sans-serif;
 }
 
@@ -24,15 +24,23 @@ body {
   font-size: 18px;
   margin: 5px 0;
   color: white;
+  font-style: italic;
 }
 
 form {
   max-width: 700px;
-  background-color: #252546;
+  background-color: rgba(20, 20, 94, 0.5);
   margin: 40px auto 0;
   padding: 35px;
   color: white;
   border-radius: 6px;
+  transition: 0.5s;
+}
+
+form:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.432);
+  transform: scale(1.01);
+  background-color: rgba(38, 38, 112, 0.5);
 }
 
 label {
